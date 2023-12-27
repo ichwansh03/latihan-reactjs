@@ -2,6 +2,7 @@ import Counter01 from "./components/Counter01";
 import Counter02 from "./components/Counter02";
 import Counter03 from "./components/Counter03";
 import MainLayout from "./components/MainLayout";
+import ProductList from "./components/ParentChild/ProductList";
 import ThemeCustom from "./references/ThemeCustom";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     //<Counter01/>
     //<Counter02/>
     //<Counter03/>
-    <ThemeCustom/>
+    //<ThemeCustom/>
+    <ProductList/>
   );
 }
 
