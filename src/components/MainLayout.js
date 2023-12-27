@@ -1,9 +1,10 @@
 import React from 'react'
+import Headers from './layout/Headers'
 
 export default function MainLayout() {
     return (
-        <div>
-            <h1>Hello ReactJS</h1>
-        </div>
+        <>
+            <Headers />
+        </>
     )
 }

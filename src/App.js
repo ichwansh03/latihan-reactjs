@@ -10,7 +10,7 @@ import ThemeCustom from "./references/ThemeCustom";
 function App() {
   return (
     //stateless example
-    //<MainLayout/>
+    <MainLayout/>
 
     //statefull example
     //<Counter01/>
@@ -19,7 +19,7 @@ function App() {
     //<ThemeCustom/>
     //<ProductList/>
     //<FlexboxLayout/>
-    <GridLayout/>
+    //<GridLayout/>
   );
 }
 
