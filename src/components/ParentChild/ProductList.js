@@ -24,6 +24,19 @@ export default function ProductList() {
         );
     }
 
+    const onDislikes =(id)=>{
+        setProduct(
+            [...products.map(prod => {
+                if (prod.id === id && prod.likes !== 0) {
+                    prod.likes = prod.likes-1
+                    return prod;
+                } else {
+                    return prod;
+                }
+            })]
+        )
+    }
+
   return (
     <div>
         {
@@ -37,6 +50,7 @@ export default function ProductList() {
                             price = {prod.price}
                             likes = {prod.likes}
                             onLikes = {onLikes}
+                            onDislikes = {onDislikes}
                         />
                         {/* <p>id : {prod.id}</p>
                         <p>name : {prod.name}</p>
