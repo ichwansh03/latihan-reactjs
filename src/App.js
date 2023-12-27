@@ -1,4 +1,6 @@
 import Counter01 from "./components/Counter01";
+import Counter02 from "./components/Counter02";
+import Counter03 from "./components/Counter03";
 import MainLayout from "./components/MainLayout";
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
     //<MainLayout/>
 
     //statefull example
-    <Counter01/>
+    //<Counter01/>
+    //<Counter02/>
+    <Counter03/>
   );
 }
 
