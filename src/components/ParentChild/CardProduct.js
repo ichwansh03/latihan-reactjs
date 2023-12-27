@@ -7,8 +7,8 @@ export default function CardProduct(props) {
         <p>name : {props.name}</p>
         <p>price : {props.price}</p>
         <p>likes : {props.likes}</p>
-        <button>Likes</button>
-        <button>Dislike</button>
+        <button onClick={()=> props.onLikes(props.id)}>Likes</button>
+        <button onClick={()=> props.onDislikes()}>Dislike</button>
     </div>
   )
 }

@@ -11,9 +11,23 @@ export default function ProductList() {
 
     const [products, setProduct] = useState(listOfProduct);
 
+    const onLikes =(id)=>{
+        setProduct(
+            [...products.map(prod => {
+                if (prod.id === id) {
+                    prod.likes = prod.likes+1
+                    return prod;
+                }else {
+                    return prod;
+                }
+            })]
+        );
+    }
+
   return (
     <div>
         {
+            products && 
             products.map(prod => {
                 return (
                     <li>
@@ -22,6 +36,7 @@ export default function ProductList() {
                             name = {prod.name}
                             price = {prod.price}
                             likes = {prod.likes}
+                            onLikes = {onLikes}
                         />
                         {/* <p>id : {prod.id}</p>
                         <p>name : {prod.name}</p>
