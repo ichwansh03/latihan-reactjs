@@ -30,7 +30,7 @@ const Hero = styled.div`
         font-size: 18px;
         font-weight: 600;
         line-height: 22px;
-        color: #fff;
+        color: aliceblue;
     }
 
     h2{
