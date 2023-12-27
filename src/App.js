@@ -4,6 +4,7 @@ import Counter03 from "./components/Counter03";
 import MainLayout from "./components/MainLayout";
 import ProductList from "./components/ParentChild/ProductList";
 import FlexboxLayout from "./pages/FlexboxLayout";
+import GridLayout from "./pages/GridLayout";
 import ThemeCustom from "./references/ThemeCustom";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     //<Counter03/>
     //<ThemeCustom/>
     //<ProductList/>
-    <FlexboxLayout/>
+    //<FlexboxLayout/>
+    <GridLayout/>
   );
 }
 
