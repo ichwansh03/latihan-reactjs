@@ -16,7 +16,7 @@ const Hero = styled.div`
     img{
         margin: auto;
         padding-top: 1rem;
-        height: 165px;
+        height: 150px;
         grid-column: 2/3;
         grid-row: 1/2;
     }

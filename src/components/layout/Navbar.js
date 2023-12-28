@@ -201,6 +201,7 @@ export default function Navbar() {
                 <li><a href='#home'>About</a></li>
                 <li><a href='#home'>Places</a></li>
                 <li><a href='#home'>Blogs</a></li>
+                <li><a href='#contact'>Contact</a></li>
                 <li><a href='#signin' className='btn'>Sign In</a></li>
             </ul>
         </nav>
