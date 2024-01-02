@@ -6,12 +6,15 @@ import ProductList from "./components/ParentChild/ProductList";
 import FlexboxLayout from "./pages/FlexboxLayout";
 import GridLayout from "./pages/GridLayout";
 import ThemeCustom from "./references/ThemeCustom";
+import ReactProps from "./references/ReactProps";
+import NestedComponents from "./references/NestedComponents"
 
 function App() {
   return (
     //stateless example
-    <MainLayout/>
-
+    //<ThemeCustom/>
+    //<ReactProps color="blue"/>
+    <NestedComponents/>
     //statefull example
     //<Counter01/>
     //<Counter02/>
